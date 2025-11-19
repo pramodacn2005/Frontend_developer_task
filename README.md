@@ -2,36 +2,36 @@
 
 A full-stack web application with authentication and dashboard features, built with React.js and Node.js/Express.
 
-## 🚀 Features
+## Features
 
 ### Frontend
-- ✅ React.js with modern hooks and context API
-- ✅ Responsive design using TailwindCSS
-- ✅ Form validation (client-side)
-- ✅ Protected routes (login required for dashboard)
-- ✅ User authentication (login/register)
-- ✅ Dashboard with user profile
-- ✅ CRUD operations on tasks
-- ✅ Search and filter functionality
-- ✅ Beautiful, modern UI/UX
+- React.js with modern hooks and context API
+- Responsive design using TailwindCSS
+- Form validation (client-side)
+- Protected routes (login required for dashboard)
+- User authentication (login/register)
+- Dashboard with user profile
+- CRUD operations on tasks
+- Search and filter functionality
+- Beautiful, modern UI/UX
 
 ### Backend
-- ✅ Node.js/Express RESTful API
-- ✅ MongoDB database integration
-- ✅ JWT-based authentication
-- ✅ Password hashing with bcrypt
-- ✅ Server-side validation
-- ✅ Error handling middleware
-- ✅ Protected routes with authentication middleware
+- Node.js/Express RESTful API
+- MongoDB database integration
+- JWT-based authentication
+- Password hashing with bcrypt
+- Server-side validation
+- Error handling middleware
+- Protected routes with authentication middleware
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before you begin, ensure you have the following installed:
 - Node.js (v14 or higher)
 - npm or yarn
 - MongoDB (local installation or MongoDB Atlas account)
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the repository
 ```bash
@@ -131,7 +131,7 @@ The application will be available at:
 - Frontend: http://localhost:3000
 - Backend API: http://localhost:5000
 
-## 📚 API Documentation
+## API Documentation
 
 ### Base URL
 ```
@@ -266,7 +266,7 @@ DELETE /api/tasks/:id
 Authorization: Bearer {token}
 ```
 
-## 🧪 Testing with Postman
+## Testing with Postman
 
 A Postman collection is included in the `docs` folder. Import `Frontend_Task_API.postman_collection.json` into Postman to test all endpoints.
 
@@ -280,7 +280,7 @@ A Postman collection is included in the `docs` folder. Import `Frontend_Task_API
 3. Run the "Register" or "Login" request first to get a token
 4. The token will be automatically saved to the environment variable
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 Frontend_Develpoer_Task/
@@ -324,16 +324,16 @@ Frontend_Develpoer_Task/
 └── README.md
 ```
 
-## 🔒 Security Features
+## Security Features
 
-- ✅ Password hashing with bcrypt (salt rounds: 10)
-- ✅ JWT token-based authentication
-- ✅ Protected API routes with middleware
-- ✅ Input validation (client & server-side)
-- ✅ CORS configuration
-- ✅ Environment variables for sensitive data
+- Password hashing with bcrypt (salt rounds: 10)
+- JWT token-based authentication
+- Protected API routes with middleware
+- Input validation (client & server-side)
+- CORS configuration
+- Environment variables for sensitive data
 
-## 📈 Scaling Considerations for Production
+## Scaling Considerations for Production
 
 ### Frontend Scaling
 
@@ -421,7 +421,7 @@ Frontend_Develpoer_Task/
    - Environment-specific configurations
    - Rollback capabilities
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### MongoDB Connection Issues
 - Ensure MongoDB is running: `mongod` or check service status
@@ -441,18 +441,18 @@ Frontend_Develpoer_Task/
 - Check token expiration (default: 7 days)
 - Ensure Authorization header format: `Bearer {token}`
 
-## 📝 Notes
+## Notes
 
 - This project uses MongoDB for data persistence
 - JWT tokens expire after 7 days
 - Passwords are hashed using bcrypt with 10 salt rounds
 - All API endpoints require authentication except `/api/auth/*`
 
-## 👤 Author
+## Author
 
 Frontend Developer Task Submission
 
-## 📄 License
+## License
 
 This project is created for assignment purposes.
 
